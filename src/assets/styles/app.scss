@@ -1,0 +1,18 @@
+// Variables
+@import 'common/variables';
+@import 'common/mixins';
+@import 'common/fonts';
+
+// library
+@import './layouts/nprogress';
+
+@import './libs/tailwind';
+@import 'antd/dist/antd.css';
+
+// layouts
+@import './layouts/animation';
+@import './layouts/global';
+
+:root {
+  $primary-color: 'TODO:change-me';
+}
